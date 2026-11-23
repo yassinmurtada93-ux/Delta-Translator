@@ -1,108 +1,16 @@
--- // yu & ahm Ultimate Max Power Cloud Dictionary (dictionary.lua)
-return {
-    -- الأزرار والقوائم الأساسية
-    ["shop"] = "المتجر", ["rebirth"] = "إعادة ولادة", ["index"] = "الفهرس", 
-    ["duels"] = "المبارزات", ["trade"] = "تجارة", ["codes"] = "الأكواد", 
-    ["friends"] = "الأصدقاء", ["global"] = "العالمي", ["people"] = "الأشخاص", 
-    ["steals"] = "السرقات", ["cash"] = "النقد", ["settings"] = "الإعدادات", 
-    ["close"] = "إغلاق", ["open"] = "فتح", ["save"] = "حفظ", 
-    ["load"] = "تحميل", ["execute"] = "تنفيذ", ["script"] = "سكربت", 
-    ["menu"] = "قائمة", ["inventory"] = "المخزن", ["pets"] = "الحيوانات الأليفة", 
-    ["eggs"] = "البيض", ["fusion"] = "الدمج", ["upgrade"] = "ترقية", 
-    ["buy"] = "شراء", ["sell"] = "بيع", ["equip"] = "تجهيز", 
-    ["unequip"] = "إلغاء التجهيز", ["claim"] = "استلام", ["reward"] = "مكافأة", 
-    ["daily"] = "يومي", ["quest"] = "مهمة", ["quests"] = "المهام", 
-    ["achievements"] = "الإنجازات", ["ready"] = "جاهز", ["start"] = "ابدأ",
-    ["stop"] = "إيقاف", ["pause"] = "توقف مؤقت", ["resume"] = "استئناف",
-    ["back"] = "رجوع", ["next"] = "التالي", ["confirm"] = "تأكيد",
-    ["cancel"] = "إلغاء", ["accept"] = "قبول", ["decline"] = "رفض",
-    ["profile"] = "الملف الشخصي", ["stats"] = "الإحصائيات", ["options"] = "الخيارات",
-    ["audio"] = "الصوت", ["graphics"] = "الرسومات", ["video"] = "فيديو",
-    ["server list"] = "قائمة السيرفرات", ["create"] = "إنشاء", ["join"] = "انضمام",
-    ["leave"] = "مغادرة", ["exit"] = "خروج", ["home"] = "الرئيسية",
-
-    -- مصطلحات اللعب والحركة المتطورة
-    ["speed"] = "سرعة", ["jump"] = "قفز", ["fly"] = "طيران", 
-    ["godmode"] = "وضع الإله", ["noclip"] = "اختراق الجدران", ["teleport"] = "انتقال", 
-    ["esp"] = "كشف الأماكن", ["aimbot"] = "التصويب التلقائي", ["admin"] = "مشرف", 
-    ["server"] = "سيرفر", ["player"] = "لاعب", ["game"] = "لعبة", 
-    ["hack"] = "تهكير", ["event"] = "حدث", ["error"] = "خطأ", 
-    ["success"] = "نجاح", ["loading"] = "جاري التحميل...", ["enabled"] = "مفعل", 
-    ["disabled"] = "معطل", ["yes"] = "نعم", ["no"] = "لا", ["ok"] = "حسناً",
-    ["workspace"] = "مساحة العمل", ["characters"] = "الشخصيات", ["teams"] = "الفرق",
-    ["leaderstats"] = "الإحصائيات", ["combat"] = "القتال", ["weapons"] = "الأسلحة",
-    ["tools"] = "الأدوات", ["health"] = "الصحة", ["energy"] = "الطاقة",
-    ["level"] = "المستوى", ["xp"] = "خبرة", ["coins"] = "عملات", ["gems"] = "جواهر",
-    ["crystals"] = "بلورات", ["tokens"] = "رموز", ["points"] = "نقاط",
-    ["score"] = "النتيجة", ["time"] = "الوقت", ["round"] = "الجولة",
-    ["winner"] = "الفائز", ["loser"] = "الخاسر", ["team"] = "فريق",
-    ["alliance"] = "تحالف", ["guild"] = "نقابة", ["clan"] = "عشيرة",
-
-    -- أوامر الآدمن والشات الشاملة (Admin Commands)
-    ["announcement"] = "إعلان", ["warning"] = "تحذير", ["kick"] = "طرد", 
-    ["ban"] = "حظر", ["unban"] = "إلغاء الحظر", ["mute"] = "كتم", 
-    ["unmute"] = "إلغاء الكتم", ["bring"] = "سحب", ["goto"] = "الذهاب إلى", 
-    ["heal"] = "شفاء", ["kill"] = "قتل", ["fire"] = "إشعال النار", 
-    ["unfire"] = "إطفاء النار", ["freeze"] = "تجميد", ["thaw"] = "إلغاء التجميد",
-    ["jail"] = "سجن", ["unjail"] = "إطلاق سراح", ["god"] = "إله",
-    ["ungod"] = "إلغاء الإله", ["invisible"] = "خفي", ["visible"] = "مرئي",
-    ["music"] = "موسيقى", ["lock"] = "قفل", ["unlock"] = "فتح القفل",
-    ["gravity"] = "الجاذبية", ["slap"] = "صفعة", ["tp"] = "انتقال سريع", 
-    ["rj"] = "إعادة دخول السيرفر", ["rejoin"] = "إعادة الدخول", 
-    ["reset"] = "إعادة تعيين", ["refresh"] = "تحديث", ["respawn"] = "إعادة ظهور",
-    ["sit"] = "جلوس", ["un-sit"] = "الوقوف", ["ungodmode"] = "إلغاء وضع الإله",
-    ["name"] = "تسمية", ["speed boost"] = "زيادة السرعة", ["jump boost"] = "زيادة القفز",
-
-    -- جمل ورسائل النظام والتطبيقات الشائعة
-    ["type or snipe a code..."] = "اكتب أو انسخ كوداً...",
-    ["ready - tap listen to start"] = "جاهز - اضغط للاستماع للبدء",
-    ["empty base"] = "قاعدة فارغة",
-    ["fake notify"] = "إشعار وهمي",
-    ["message"] = "رسالة",
-    ["type a fake announcement..."] = "اكتب إعلاناً وهمياً...",
-    ["loading..."] = "جاري التحميل...",
-    ["please wait"] = "يرجى الانتظار",
-    ["connecting..."] = "جاري الاتصال...",
-    ["disconnected"] = "تم قطع الاتصال",
-    ["reconnecting..."] = "جاري إعادة الاتصال...",
-    ["success!"] = "نجاح!",
-    ["failed!"] = "فشل!",
-    ["are you sure?"] = "هل أنت متأكد؟",
-    ["you got"] = "لقد حصلت على",
-    ["new item!"] = "عنصر جديد!",
-    ["claim reward"] = "استلام المكافأة"
+{
+  "name": "yu-ahm-translator",
+  "version": "1.0.0",
+  "description": "Translation server for yu & ahm",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": "18.x"
+  }
 }
--- Delta Translator Dictionary (Optimized for Roblox & Delta Executor)
-return {
-    ["the"] = "الـ",
-    ["hack"] = "تهكير",
-    ["event"] = "حدث",
-    ["admin"] = "مشرف",
-    ["player"] = "لاعب",
-    ["game"] = "لعبة",
-    ["server"] = "سيرفر",
-    ["teleport"] = "انتقال",
-    ["speed"] = "سرعة",
-    ["jump"] = "قفز",
-    ["fly"] = "طيران",
-    ["noclip"] = "اختراق الجدران",
-    ["esp"] = "كشف الأماكن",
-    ["aimbot"] = "التصويب التلقائي",
-    ["godmode"] = "وضع الإله (عدم الموت)",
-    ["menu"] = "قائمة",
-    ["settings"] = "الإعدادات",
-    ["close"] = "إغلاق",
-    ["open"] = "فتح",
-    ["save"] = "حفظ",
-    ["load"] = "تحميل",
-    ["execute"] = "تنفيذ",
-    ["script"] = "سكربت",
-    ["error"] = "خطأ",
-    ["success"] = "نجاح",
-    ["loading"] = "جاري التحميل...",
-    ["enabled"] = "مفعل",
-    ["disabled"] = "معطل",
-    ["yes"] = "نعم",
-    ["no"] = "لا",
-    ["ok"] = "حسناً"
-}
+
